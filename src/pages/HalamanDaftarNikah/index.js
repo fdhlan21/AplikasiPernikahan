@@ -90,7 +90,7 @@ setMode(currentMode);
 <Text style={{fontFamily:'Alata-Regular', fontSize:12, left:20}}>Booking Tempat</Text>
 </View>
 
-<View style={{backgroundColor:colors.white, padding:5, borderWidth:1, borderColor:colors.primary, marginHorizontal:20, paddingVertical:15, borderRadius:10, elevation:6}}>
+<View style={{backgroundColor:colors.white, padding:5, borderWidth:1, borderColor:colors.primary, marginHorizontal:20, paddingVertical:15, borderRadius:10, }}>
 <Text style={{fontFamily:'Alata-Regular' , textAlign:'center'}}>Masjid Agung Baitul Makmur Meulaboh</Text>
   
 </View>
@@ -101,7 +101,7 @@ setMode(currentMode);
 <Text style={{fontFamily:'Alata-Regular', fontSize:12, left:20}}>Booking Tanggal</Text>
 </View>
 
-<View style={{backgroundColor:colors.white, padding:5, borderWidth:1, borderColor:colors.primary, marginHorizontal:20, paddingVertical:5, borderRadius:10, elevation:6, bottom:5}}>
+<View style={{backgroundColor:colors.white, padding:5, borderWidth:1, borderColor:colors.primary, marginHorizontal:20, paddingVertical:5, borderRadius:10,  bottom:5}}>
 <Text style={{ fontSize:15, top:10, left:10, fontFamily:'Alata-Regular' }}>{text}</Text>
 <TouchableOpacity   onPress={() => showMode('date')}   style={{left:280, bottom:10}}>
 
@@ -116,7 +116,7 @@ setMode(currentMode);
 </View>
 
 
-<View style={{backgroundColor:colors.white, padding:5, borderWidth:1, borderColor:colors.primary, marginHorizontal:20, paddingVertical:5, borderRadius:10, elevation:6, bottom:5}}>
+<View style={{backgroundColor:colors.white, padding:5, borderWidth:1, borderColor:colors.primary, marginHorizontal:20, paddingVertical:5, borderRadius:10, bottom:5}}>
 <Text style={{ fontSize:15, top:10, left:10, fontFamily:'Alata-Regular'}}>{waktu}</Text>
 <TouchableOpacity   onPress={() => showMode('time')}  style={{left:280, bottom:10}}>
   <Image  style={{width:20, height:21, }}  source={require('../../assets/img/waktu.png')}/>
@@ -127,11 +127,11 @@ setMode(currentMode);
 <View style={{flexDirection:'row',  paddingVertical:10,  bottom:5}}>
 <Text style={{fontFamily:'Alata-Regular', fontSize:12, left:20}}>Oleh/Wali sendiri/KUA Kec/Lainnya</Text>
 </View>
-<TextInput style={{marginHorizontal:20, backgroundColor:colors.white, borderRadius:10, borderWidth:1, borderColor:colors.primary, elevation:6, color:colors.black, fontFamily:'Alata-Regular',  bottom:5 }}  placeholder='Oleh/ Wali Sendiri/KUA Kec/Lainnya' placeholderTextColor={'gray'} /> 
+<TextInput style={{marginHorizontal:20, backgroundColor:colors.white, borderRadius:10, borderWidth:1, borderColor:colors.primary, color:colors.black, fontFamily:'Alata-Regular',  bottom:5 }}  placeholder='Oleh/ Wali Sendiri/KUA Kec/Lainnya' placeholderTextColor={'gray'} /> 
 
 
 <View style={{flexDirection:'row',   top:20, paddingVertical:5}}>
-  <TouchableOpacity onPress={()=>navigation.navigate('HalamanInputCalonSuami')} style={{ backgroundColor:colors.primary, left:70, borderRadius:10, paddingHorizontal:70, paddingVertical:10, elevation:6}}>
+  <TouchableOpacity onPress={()=>navigation.navigate('HalamanInputCalonSuami')} style={{ backgroundColor:colors.primary, left:70, borderRadius:10, paddingHorizontal:70, paddingVertical:10, }}>
     <Text style={{color:colors.white, fontFamily:'Alata-Regular', fontSize:15,}}>Selanjutnya</Text>
   </TouchableOpacity>
 </View>
@@ -142,12 +142,12 @@ setMode(currentMode);
 <View style={{flexDirection:'row', top:172, paddingVertical:10, }}>
 
 <TouchableOpacity onPress={()=>navigation.navigate('HalamanHome')}  style={{left:80}}>
-  <Image  style={{width:30, height:30, }} source={require('../../assets/img/homecoklat.png')}/>
+  <Image  style={{width:30, height:30, }} source={require('../../assets/img/homecoklatmuda.png')}/>
 </TouchableOpacity>
 
 
 <TouchableOpacity    onPress={()=>navigation.navigate('HalamanProfile')}   style={{ left:220}}>
-  <Image  style={{width:30, height:30,}} source={require('../../assets/img/usercoklat.png')}/>
+  <Image  style={{width:30, height:30,}} source={require('../../assets/img/profilecoklatmuda.png')}/>
 </TouchableOpacity>
 
 </View>

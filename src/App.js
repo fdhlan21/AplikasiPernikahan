@@ -12,6 +12,7 @@ import HalamanRegister from './pages/HalamanRegister';
 import HalamanHome from './pages/HalamanHome';
 import HalamanDaftarNikah from './pages/HalamanDaftarNikah';
 import HalamanInputCalonSuami from './pages/HalamanInputCalonSuami';
+
 import HalamanInputCalonIsteri from './pages/HalamanInputCalonIsteri';
 import HalamanPembayaran from './pages/HalamanPembayaran';
 import HalamanKhutbahJumat from './pages/HalamanKhutbahJumat';

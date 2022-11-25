@@ -32,7 +32,7 @@ constructor()
 
 
 
-<View style={{flexDirection:'row', top:20,  paddingVertical:200, backgroundColor:colors.white, borderWidth:2, borderColor:colors.primary, margin:20,borderRadius:10, elevation:6, }}>
+<View style={{flexDirection:'row', top:20,  paddingVertical:200, backgroundColor:colors.white, borderWidth:2, borderColor:colors.primary, margin:20,borderRadius:10,  }}>
 <Text style={{color:colors.black, fontFamily:'Alata-Regular', lineHeight:20, fontSize:15, bottom:160, left:10, color:colors.primary}}>Info Shalat Jum'at Masjid Agung Baitul Makmur Meulaboh</Text>
 
 <Text style={{fontFamily:'Alata-Regular', right:260, fontSize:15, bottom:80, lineHeight:20, color:colors.primary}}>Jadwal Jumat, 25-11-22
@@ -55,12 +55,12 @@ Ikuti info seputar Masjid Agung di @masjidagung.official</Text>
 <View style={{flexDirection:'row', top:80, paddingVertical:10, }}>
 
 <TouchableOpacity onPress={()=>navigation.navigate('HalamanHome')}  style={{left:80}}>
-  <Image  style={{width:30, height:30, }} source={require('../../assets/img/homecoklat.png')}/>
+  <Image  style={{width:30, height:30, }} source={require('../../assets/img/homecoklatmuda.png')}/>
 </TouchableOpacity>
 
 
 <TouchableOpacity    onPress={()=>navigation.navigate('HalamanProfile')}   style={{ left:220}}>
-  <Image  style={{width:30, height:30,}} source={require('../../assets/img/usercoklat.png')}/>
+  <Image  style={{width:30, height:30,}} source={require('../../assets/img/profilecoklatmuda.png')}/>
 </TouchableOpacity>
 
 </View>

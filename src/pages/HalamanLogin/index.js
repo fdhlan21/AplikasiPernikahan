@@ -14,20 +14,20 @@ function HalamanLogin({navigation}) {
 
 
 <View style={{flexDirection:'row', padding:5,  marginHorizontal:10, marginVertical:0, top:50,}}>
-<Image style={{height:15, width:20, top:5  }} source={require('../../assets/img/emailcoklat.png')}  />
+<Image style={{height:15, width:20, top:5  }} source={require('../../assets/img/emailcoklatmuda.png')}  />
 <Text style={{fontFamily:'Alata-Regular', fontSize:15, left:10}}>Email</Text>
 </View>
-<TextInput style={{marginHorizontal:10, marginVertical:0, backgroundColor:colors.white, borderRadius:10, elevation:6 ,color:colors.black, fontFamily:'Alata-Regular', top:50, borderWidth:1, borderColor:colors.primary}} />
+<TextInput style={{marginHorizontal:10, marginVertical:0, backgroundColor:colors.white, borderRadius:10, color:colors.black, fontFamily:'Alata-Regular', top:50, borderWidth:1, borderColor:colors.primary}} />
 
 <View style={{flexDirection:'row', padding:5,  marginHorizontal:10, marginVertical:0,  top:70}}>
-<Image style={{height:20, width:20,  }} source={require('../../assets/img/passwordcoklat.png')}  />
+<Image style={{height:20, width:20,  }} source={require('../../assets/img/passwordcoklatmuda.png')}  />
 <Text style={{fontFamily:'Alata-Regular', fontSize:15, left:10}}>Password</Text>
 </View>
-<TextInput style={{marginHorizontal:10, marginVertical:0, backgroundColor:colors.white, borderRadius:10, elevation:6 ,color:colors.black, fontFamily:'Alata-Regular', top:70, borderWidth:1, borderColor:colors.primary }} secureTextEntry={true}  />
+<TextInput style={{marginHorizontal:10, marginVertical:0, backgroundColor:colors.white, borderRadius:10, color:colors.black, fontFamily:'Alata-Regular', top:70, borderWidth:1, borderColor:colors.primary }} secureTextEntry={true}  />
 
 
 <View style={{flexDirection:'row', padding:5, top:100, left:13 }}>
-<TouchableOpacity  onPress={()=>navigation.navigate('HalamanHome')}    style={{ backgroundColor:colors.primary, padding:5, paddingVertical:1, paddingHorizontal:70, borderRadius:10, left:70, elevation:6, }}>
+<TouchableOpacity  onPress={()=>navigation.navigate('HalamanHome')}    style={{ backgroundColor:colors.primary, padding:5, paddingVertical:1, paddingHorizontal:70, borderRadius:10, left:70, }}>
 
   <Text style={{color:colors.white, fontFamily:'Alata-Regular', fontSize:18, top:2, left:5}}>Login</Text>
   <Image style={{width:15, height:15, right:10, bottom:17, }} source={require('../../assets/img/logincoklat.png')} />

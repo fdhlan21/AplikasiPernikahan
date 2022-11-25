@@ -35,7 +35,7 @@ constructor()
 <Text style={{fontFamily:'Alata-Regular', left:20, }}>Total Pembayaran </Text>
 </View>
 
-<View style={{padding:5, backgroundColor:colors.white, borderWidth:2, borderColor:colors.primary, paddingVertical:20, margin:20, borderRadius:10, top:65, elevation:6}}>
+<View style={{padding:5, backgroundColor:colors.white, borderWidth:2, borderColor:colors.primary, paddingVertical:20, margin:20, borderRadius:10, top:65, }}>
   <Text style={{fontFamily:'Alata-Regular', textAlign:'center'}}>Rp. 600.000,-</Text>
 </View>
 
@@ -44,7 +44,7 @@ constructor()
 <View style={{flexDirection:'row', padding:5,top:90,  paddingVertical:10}}>
 <Text style={{fontFamily:'Alata-Regular', left:20, }}>Transfer ke </Text>
 </View>
-<View style={{padding:5, backgroundColor:colors.white, borderWidth:2, borderColor:colors.primary, paddingVertical:20, margin:20, borderRadius:10, top:65, elevation:6}}>
+<View style={{padding:5, backgroundColor:colors.white, borderWidth:2, borderColor:colors.primary, paddingVertical:20, margin:20, borderRadius:10, top:65, }}>
 <Text style={{fontFamily:'Alata-Regular', }}>Bank : </Text>
   <Text style={{fontFamily:'Alata-Regular',}}>No Rek : </Text>
   <Text style={{fontFamily:'Alata-Regular', }}>Nama : </Text>
@@ -56,12 +56,12 @@ constructor()
 <View style={{flexDirection:'row', top:160, paddingVertical:10, }}>
 
 <TouchableOpacity onPress={()=>navigation.navigate('HalamanHome')}  style={{left:80}}>
-  <Image  style={{width:30, height:30, }} source={require('../../assets/img/homecoklat.png')}/>
+  <Image  style={{width:30, height:30, }} source={require('../../assets/img/homecoklatmuda.png')}/>
 </TouchableOpacity>
 
 
 <TouchableOpacity    onPress={()=>navigation.navigate('HalamanProfile')}   style={{ left:220}}>
-  <Image  style={{width:30, height:30,}} source={require('../../assets/img/usercoklat.png')}/>
+  <Image  style={{width:30, height:30,}} source={require('../../assets/img/profilecoklatmuda.png')}/>
 </TouchableOpacity>
 
 </View>

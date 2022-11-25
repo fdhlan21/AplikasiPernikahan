@@ -36,7 +36,7 @@ constructor()
 <Text style={{fontFamily:'Alata-Regular', left:20, }}>jum’at, 25 November 2022: </Text>
 </View>
 
-<TouchableOpacity  onPress={()=>navigation.navigate('HalamanInfoKhutbah')} style={{padding:5, backgroundColor:colors.white, borderWidth:2, borderColor:colors.primary, paddingVertical:0, margin:20, borderRadius:10, top:35, elevation:6, backgroundColor:colors.primary}}>
+<TouchableOpacity  onPress={()=>navigation.navigate('HalamanInfoKhutbah')} style={{padding:5, backgroundColor:colors.white, borderWidth:2, borderColor:colors.primary, paddingVertical:0, margin:20, borderRadius:10, top:35,  backgroundColor:colors.primary}}>
   <Text style={{fontFamily:'Alata-Regular', color:colors.white, textAlign:'center', top:20, }}>Khatib : Ustadz Anwar</Text>
   <Image  style={{width:50, height:50, bottom:10}} source={require('../../assets/img/profileustad.png')} />
 </TouchableOpacity>
@@ -45,17 +45,7 @@ constructor()
 <Text style={{fontFamily:'Alata-Regular', left:20, }}>jum’at, 25 November 2022: </Text>
 </View>
 
-<TouchableOpacity style={{padding:5, backgroundColor:colors.white, borderWidth:2, borderColor:colors.primary, paddingVertical:0, margin:20, borderRadius:10, top:35, elevation:6, backgroundColor:colors.primary}}>
-  <Text style={{fontFamily:'Alata-Regular', color:colors.white, textAlign:'center', top:20, }}>Khatib : Ustadz Anwar</Text>
-  <Image  style={{width:50, height:50, bottom:10}} source={require('../../assets/img/profileustad.png')} />
-</TouchableOpacity>
-
-
-<View style={{flexDirection:'row', padding:5, top:50,  paddingVertical:10}}>
-<Text style={{fontFamily:'Alata-Regular', left:20, }}>jum’at, 25 November 2022: </Text>
-</View>
-
-<TouchableOpacity style={{padding:5, backgroundColor:colors.white, borderWidth:2, borderColor:colors.primary, paddingVertical:0, margin:20, borderRadius:10, top:35, elevation:6, backgroundColor:colors.primary}}>
+<TouchableOpacity style={{padding:5, backgroundColor:colors.white, borderWidth:2, borderColor:colors.primary, paddingVertical:0, margin:20, borderRadius:10, top:35,  backgroundColor:colors.primary}}>
   <Text style={{fontFamily:'Alata-Regular', color:colors.white, textAlign:'center', top:20, }}>Khatib : Ustadz Anwar</Text>
   <Image  style={{width:50, height:50, bottom:10}} source={require('../../assets/img/profileustad.png')} />
 </TouchableOpacity>
@@ -65,7 +55,17 @@ constructor()
 <Text style={{fontFamily:'Alata-Regular', left:20, }}>jum’at, 25 November 2022: </Text>
 </View>
 
-<TouchableOpacity style={{padding:5, backgroundColor:colors.white, borderWidth:2, borderColor:colors.primary, paddingVertical:0, margin:20, borderRadius:10, top:35, elevation:6, backgroundColor:colors.primary}}>
+<TouchableOpacity style={{padding:5, backgroundColor:colors.white, borderWidth:2, borderColor:colors.primary, paddingVertical:0, margin:20, borderRadius:10, top:35, backgroundColor:colors.primary}}>
+  <Text style={{fontFamily:'Alata-Regular', color:colors.white, textAlign:'center', top:20, }}>Khatib : Ustadz Anwar</Text>
+  <Image  style={{width:50, height:50, bottom:10}} source={require('../../assets/img/profileustad.png')} />
+</TouchableOpacity>
+
+
+<View style={{flexDirection:'row', padding:5, top:50,  paddingVertical:10}}>
+<Text style={{fontFamily:'Alata-Regular', left:20, }}>jum’at, 25 November 2022: </Text>
+</View>
+
+<TouchableOpacity style={{padding:5, backgroundColor:colors.white, borderWidth:2, borderColor:colors.primary, paddingVertical:0, margin:20, borderRadius:10, top:35,  backgroundColor:colors.primary}}>
   <Text style={{fontFamily:'Alata-Regular', color:colors.white, textAlign:'center', top:20, }}>Khatib : Ustadz Anwar</Text>
   <Image  style={{width:50, height:50, bottom:10}} source={require('../../assets/img/profileustad.png')} />
 </TouchableOpacity>
@@ -82,12 +82,12 @@ constructor()
 <View style={{flexDirection:'row', top:1, paddingVertical:10, }}>
 
 <TouchableOpacity onPress={()=>navigation.navigate('HalamanHome')}  style={{left:80}}>
-  <Image  style={{width:30, height:30, }} source={require('../../assets/img/homecoklat.png')}/>
+  <Image  style={{width:30, height:30, }} source={require('../../assets/img/homecoklatmuda.png')}/>
 </TouchableOpacity>
 
 
 <TouchableOpacity    onPress={()=>navigation.navigate('HalamanProfile')}   style={{ left:220}}>
-  <Image  style={{width:30, height:30,}} source={require('../../assets/img/usercoklat.png')}/>
+  <Image  style={{width:30, height:30,}} source={require('../../assets/img/profilecoklatmuda.png')}/>
 </TouchableOpacity>
 
 </View>

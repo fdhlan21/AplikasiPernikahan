@@ -194,7 +194,7 @@ function HalamanInputCalonSuami({navigation}) {
 </TouchableOpacity>
 
 
-<TouchableOpacity    onPress={()=>navigation.navigate('HalamanInputCalonIsteri')}     style={{padding:5, backgroundColor:colors.primary,  paddingHorizontal:80,  borderRadius:10, paddingHorizontal:80, paddingVertical:20, elevation:6, top:80, right:20  }}>
+<TouchableOpacity    onPress={()=>navigation.navigate('HalamanInputCalonIsteri')}     style={{padding:5, backgroundColor:colors.primary,  paddingHorizontal:80,  borderRadius:10, paddingHorizontal:80, paddingVertical:20, top:80, right:20  }}>
   <Text style={{color:colors.white, fontFamily:'Alata-Regular', }}>Kirim</Text>
 </TouchableOpacity>
 
@@ -212,12 +212,12 @@ function HalamanInputCalonSuami({navigation}) {
 <View style={{flexDirection:'row', top:1, paddingVertical:10,}}>
 
 <TouchableOpacity onPress={()=>navigation.navigate('HalamanHome')}  style={{left:80}}>
-  <Image  style={{width:30, height:30, }} source={require('../../assets/img/homecoklat.png')}/>
+  <Image  style={{width:30, height:30, }} source={require('../../assets/img/homecoklatmuda.png')}/>
 </TouchableOpacity>
 
 
 <TouchableOpacity    onPress={()=>navigation.navigate('HalamanProfile')}   style={{ left:220}}>
-  <Image  style={{width:30, height:30,}} source={require('../../assets/img/usercoklat.png')}/>
+  <Image  style={{width:30, height:30,}} source={require('../../assets/img/profilecoklatmuda.png')}/>
 </TouchableOpacity>
 
 </View>
